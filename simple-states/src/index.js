@@ -6,14 +6,10 @@ import React from 'react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-function tick() {
-  root.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
-}
-
-setInterval(tick, 1000);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 reportWebVitals();

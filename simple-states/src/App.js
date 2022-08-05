@@ -1,9 +1,10 @@
 import './App.css';
+import Clock from './components/Clock';
 
 function App() {
   return (
     <div>
-      <h1>Simple States</h1>
+      <Clock />
     </div>
   );
 }
